@@ -400,63 +400,58 @@ nav.post-controls .actions {
 //*---------------------------*/
 //* Admin Section
 //*---------------------------*/
-.admin-interface {
-  .admin-main-nav,
-  .user-primary-navigation {
-    .nav-pills {
-      margin-bottom: 0;
+.admin-main-nav,
+.user-primary-navigation {
+  border-bottom: 2px solid var(--primary-high);
+  .nav-pills {
+    margin-bottom: 0;
 
-      > li a {
-        border-top-left-radius: 0.25rem;
-        border-top-right-radius: 0.25rem;
-        margin-right: 0.1rem;
-        padding: 0.5rem 0.8rem 0.4rem;
+    > li a {
+      border-top-left-radius: 0.25rem;
+      border-top-right-radius: 0.25rem;
+      margin-right: 0.1rem;
+      padding: 0.5rem 0.8rem 0.4rem;
 
+      &:hover {
+        background-color: var(--primary-low);
+        color: var(--primary-high);
+      }
+
+      &.active {
+        background-color: var(--primary-high);
+        
         &:hover {
-          background-color: var(--primary-low);
-          color: var(--primary-high);
-        }
-
-        &.active {
-          background-color: var(--primary-high);
-          
-          &:hover {
-            color: var(--tertiary-low)
-          }
+          color: var(--tertiary-low)
         }
       }
     }
   }
+}
 
-  .admin-controls {
+.admin-controls {
+  background-color: var(--primary-very-low);
+
+  .controls {
     background-color: var(--primary-very-low);
+  }
 
-    .controls {
-      background-color: var(--primary-very-low);
-    }
+  .nav-pills {
+    background-color: transparent;
+    font-size: var(--font-down-1);
 
-    nav {
+    a:hover {
+      color: var(--tertiary);
       background-color: transparent;
-      font-size: var(--font-down-1);
+    }
 
-      a:hover {
-        color: var(--tertiary);
-        background-color: transparent;
-      }
-
-      a.active {
-        background-color: transparent;
-        color: var(--tertiary);
-        font-weight: 700;
-      }
+    > li a.active {
+      background-color: transparent;
+      color: var(--tertiary);
+      font-weight: 700;
     }
   }
+}
 
-  .boxed.white {
-    border-top: 2px solid var(--primary-high);
-  }
-
-  .nav-stacked a.active {
-    background-color: var(--primary-medium);
-  }
+.nav-stacked a.active {
+  background-color: var(--primary-medium);
 }
