@@ -1,0 +1,7 @@
+{
+  "author": "ellaestigoy",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-discourse": "latest"
+  }
+}

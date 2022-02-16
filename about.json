@@ -1,0 +1,36 @@
+{
+  "about_url": null,
+  "license_url": null,
+  "assets": {
+  },
+  "name": "Periwinkle",
+  "color_schemes": {
+    "Periwinkle Light": {
+      "primary": "2b2c34",
+      "secondary": "fffffe",
+      "tertiary": "6246ea",
+      "quaternary": "fcb4b5",
+      "header_background": "fffffe",
+      "header_primary": "2b2c34",
+      "highlight": "d1d1e9",
+      "danger": "e45858",
+      "success": "2cb67d",
+      "love": "e45858"
+    },    
+    "Periwinkle Dark": {
+      "primary": "94a1b2",
+      "secondary": "16161a",
+      "tertiary": "7f5af0",
+      "quaternary": "2cb67d",
+      "header_background": "242629",
+      "header_primary": "fffffe",
+      "highlight": "242629",
+      "danger": "fcb4b5",
+      "success": "2cb67d",
+      "love": "ff4245"
+    }
+  },
+  "components": [
+    "https://github.com/discourse/discourse-search-banner.git"
+  ]
+}
