@@ -54,10 +54,6 @@ div.ac-wrap {
   }
 }
 
-.d-header {
-  border-bottom: 1px solid var(--primary-low);
-}
-
 //*---------------------------*/
 //* Navigation Container
 //*---------------------------*/
@@ -335,6 +331,10 @@ div.ac-wrap {
 //*---------------------------*/
 //* Misc
 //*---------------------------*/
+.d-header {
+  border-bottom: 1px solid var(--primary-low);
+}
+
 .badge-category-bg {
   border-radius: 2rem;
 }

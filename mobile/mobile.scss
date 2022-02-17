@@ -1,0 +1,25 @@
+.list-controls {
+  margin-bottom: 1rem;
+
+  .navigation-container {
+    display: grid;
+    grid-template-areas: 
+      "breadcrumb breadcrumb"
+      "navigation navigation"
+      "buttons buttons";
+  }
+}
+
+.navigation-toggle {
+  border-radius: 2rem;
+  width: 100%;
+
+  .toggle-link {
+    width: 100%;
+  }
+}
+
+.navigation-toggle,
+.navigation-container #navigation-bar {
+  margin-bottom: 0.75rem;
+}
