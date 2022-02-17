@@ -338,6 +338,25 @@ div.ac-wrap {
 .badge-category-bg {
   border-radius: 2rem;
 }
+
+.badge-wrapper.box {
+  .badge-category {
+    padding: 0 0.65rem;
+  }
+}
+
+.topic-timer-info {
+  padding-top: 1rem;
+}
+
+.inline-modal .modal-inner-container {
+  border-color: var(--primary-very-low);
+}
+
+.user-main .about .secondary dt {
+  color: var(--primary-medium);
+}
+
 // round them corners
 .btn,
 .alert-info,
@@ -401,9 +420,10 @@ nav.post-controls .actions {
 //* Admin Section
 //*---------------------------*/
 .admin-main-nav,
-.user-primary-navigation {
-  border-bottom: 2px solid var(--primary-high);
+.reviewable,
+.user-primary-navigation {  
   .nav-pills {
+    border-bottom: 2px solid var(--primary-high);
     margin-bottom: 0;
 
     > li a {
