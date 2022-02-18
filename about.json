@@ -3,9 +3,9 @@
   "license_url": null,
   "assets": {
   },
-  "name": "Periwinkle",
+  "name": "Inky",
   "color_schemes": {
-    "Periwinkle Light": {
+    "Inky Light": {
       "primary": "2b2c34",
       "secondary": "fffffe",
       "tertiary": "6246ea",
@@ -17,9 +17,9 @@
       "success": "2cb67d",
       "love": "e45858"
     },    
-    "Periwinkle Dark": {
+    "Inky Dark": {
       "primary": "94a1b2",
-      "secondary": "16161a",
+      "secondary": "040408",
       "tertiary": "7f5af0",
       "quaternary": "2cb67d",
       "header_background": "242629",

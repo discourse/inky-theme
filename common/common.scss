@@ -158,7 +158,7 @@ div.ac-wrap {
       border-top: 1px solid var(--primary-very-low);
       border-bottom: 1px solid var(--primary-very-low);
       background-color: var(--highlight-medium);
-      color: var(--primary-high);
+      color: var(--primary);
     }
 
     th:first-of-type {
@@ -179,6 +179,10 @@ div.ac-wrap {
     .topic-list-data {
       font-size: var(--font-down-1);
     }
+  }
+
+  td {
+    color: var(--primary-high);
   }
 
   tbody {
@@ -212,6 +216,18 @@ div.ac-wrap {
       padding-right: 16px;
     }
   }
+}
+
+.topic-list-main-link a.title,
+.topic-list .main-link a.title,
+.latest-topic-list-item .main-link a.title {
+  color: var(--tertiary);
+}
+
+.topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
+.latest-topic-list-item.visited a.title:not(.badge-notification),
+.category-topic-link.visited a.title:not(.badge-notification){
+  color: var(--primary-high);
 }
 
 //*---------------------------*/
@@ -376,6 +392,10 @@ nav.post-controls .actions {
   .double-button button.button-count+.toggle-like.d-hover {
     background: transparent;
   }
+}
+
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .top-date-string {
+  color: var(--primary);
 }
 
 .search-link .blurb {
