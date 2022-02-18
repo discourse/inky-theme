@@ -1,6 +1,7 @@
 {
   "about_url": null,
-  "license_url": null,
+  "license_url": "https://github.com/discourse/inky-theme/blob/main/LICENSE",
+  "author": "Ella",
   "assets": {
   },
   "name": "Inky",
