@@ -200,7 +200,6 @@ div.ac-wrap {
     }
   
     .link-bottom-line {
-      font-size: var(--font-down-2);
       margin-top: 0.5rem;
     }
   }
@@ -260,6 +259,10 @@ div.ac-wrap {
 //*---------------------------*/
 .topic-body {
   padding-left: 5px;
+
+  .reply-to-tab {
+    color: var(--primary);
+  }
 }
 
 .topic-map {
@@ -307,6 +310,27 @@ div.ac-wrap {
     text-transform: capitalize;
     font-size: var(--font-down-2);
     grid-row: 1;
+    color: var(--header-primary);
+  }
+}
+
+.topic-meta-data .post-info a {
+  color: var(--primary);
+}
+
+.timeline-container .topic-timeline {
+  .start-date,
+  .timeline-ago,
+  .now-date {
+    color: var(--primary);
+  }
+
+  .timeline-scrollarea {
+    border-color: var(--primary-high);
+  }
+
+  .timeline-handle {
+    background-color: var(--primary-high);
   }
 }
 
@@ -373,15 +397,28 @@ div.ac-wrap {
   color: var(--primary-medium);
 }
 
+.alert.alert-info a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
 // round them corners
 .btn,
 .alert-info,
+.quote-button,
 .topic-footer-main-buttons button {
   border-radius: 0.25rem;
 }
 
 .discourse-no-touch .d-header-icons .icon:hover {
   background-color: transparent;
+}
+
+.quote-controls .d-icon,
+nav.post-controls .show-replies,
+nav.post-controls .actions button,
+nav.post-controls .actions a {
+  color: var(--primary-high);
 }
 
 nav.post-controls .actions {
