@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
+@import url('https://github.com/itfoundry/Poppins');
 
 // Global styles
 :root {
-  --font-serif-1: "Libre Baskerville", serif;
-  --font-serif-2: "PT Serif", serif;
+  --font-serif-1: "Poppjin", sans-serif;
+//  --font-serif-2: "PT Serif", serif;
 }
 
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-  font-family: var(--font-serif-2);
+  font-family: var(--font-serif-1);
   font-size: 112.5%;
   line-height: 1.5;
 }
