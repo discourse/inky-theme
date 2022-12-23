@@ -33,5 +33,6 @@
   },
   "components": [
     "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/discourse/Discourse-Tiles-image-gallery.git"
   ]
 }
