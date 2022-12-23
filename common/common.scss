@@ -2,7 +2,7 @@
 
 // Global styles
 :root {
-  --font-serif-1: "Poppjin", sans-serif;
+  --font-serif-1: "Poppins", sans-serif;
 //  --font-serif-2: "PT Serif", serif;
 }
 
@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
   font-family: var(--font-serif-1);
-  font-size: 112.5%;
+  font-size: 100%;
   line-height: 1.5;
 }
 
