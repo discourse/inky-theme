@@ -7,16 +7,16 @@
   "name": "Inky",
   "color_schemes": {
     "Inky Light": {
-      "primary": "2b2c34",
-      "secondary": "fefefe",
-      "tertiary": "6246ea",
-      "quaternary": "fcb4b5",
-      "header_background": "fffffe",
-      "header_primary": "2b2c34",
-      "highlight": "e8e9ec",
-      "danger": "e45858",
-      "success": "2cb67d",
-      "love": "e45858"
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "5F4CA8",
+      "quaternary": "FFC50B",
+      "header_background": "ffffff",
+      "header_primary": "222222",
+      "highlight": "E7E4F2",
+      "danger": "B9031B",
+      "success": "005B3D",
+      "love": "E26759"
     },    
     "Inky Dark": {
       "primary": "94a1b2",
