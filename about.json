@@ -19,16 +19,16 @@
       "love": "E26759"
     },    
     "Inky Dark": {
-      "primary": "94a1b2",
-      "secondary": "040408",
-      "tertiary": "7f5af0",
-      "quaternary": "2cb67d",
-      "header_background": "242629",
-      "header_primary": "fffffe",
-      "highlight": "242629",
-      "danger": "fcb4b5",
-      "success": "2cb67d",
-      "love": "ff4245"
+      "primary": "DDDDDD",
+      "secondary": "0D0D0D",
+      "tertiary": "6C59B4",
+      "quaternary": "FFCC25",
+      "header_background": "0D0D0D",
+      "header_primary": "DDDDDD",
+      "highlight": "1A152C",
+      "danger": "D2031F",
+      "success": "A4FFE1",
+      "love": "EA8F84"
     }
   },
   "components": [
