@@ -3,6 +3,10 @@
   "license_url": "https://github.com/discourse/inky-theme/blob/main/LICENSE",
   "author": "Ella",
   "assets": {
+    "librebaskerville-regular": "assets/LibreBaskerville-Regular.ttf",
+    "librebaskerville-bold": "assets/LibreBaskerville-Bold.ttf",
+    "ptserif-regular": "assets/PTSerif-Regular.ttf",
+    "ptserif-bold": "assets/PTSerif-Bold.ttf"
   },
   "name": "Inky",
   "color_schemes": {
@@ -17,7 +21,7 @@
       "danger": "e45858",
       "success": "2cb67d",
       "love": "e45858"
-    },    
+    },
     "Inky Dark": {
       "primary": "94a1b2",
       "secondary": "040408",
@@ -31,7 +35,5 @@
       "love": "ff4245"
     }
   },
-  "components": [
-    "https://github.com/discourse/discourse-search-banner.git"
-  ]
+  "components": ["https://github.com/discourse/discourse-search-banner.git"]
 }
