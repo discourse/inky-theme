@@ -1,4 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url($librebaskerville-regular);
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url($librebaskerville-bold);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url($ptserif-regular);
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url($ptserif-bold);
+  font-weight: bold;
+}
 
 // Global styles
 :root {
@@ -64,15 +84,15 @@ div.ac-wrap {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr min-content;
   grid-template-areas:
-      "breadcrumb buttons"
-      "navigation navigation";
+    "breadcrumb buttons"
+    "navigation navigation";
 
   // breadcrumb
   .category-breadcrumb {
     grid-area: breadcrumb;
     grid-row: 1;
   }
-  
+
   // categories, latest, top
   #navigation-bar {
     grid-area: navigation;
@@ -83,7 +103,7 @@ div.ac-wrap {
 
     a {
       padding-bottom: 0.5rem;
-  
+
       &:hover {
         background-color: transparent;
         color: var(--tertiary);
@@ -93,10 +113,10 @@ div.ac-wrap {
         background-color: transparent;
       }
     }
-  
+
     .active {
       border-bottom: 2px solid var(--tertiary);
-      
+
       .active {
         background-color: transparent;
         color: var(--tertiary);
@@ -190,7 +210,7 @@ div.ac-wrap {
 
     .link-top-line {
       font-family: var(--font-serif-2);
-  
+
       // add underline on link hover
       .title:hover {
         text-decoration: underline;
@@ -198,7 +218,7 @@ div.ac-wrap {
         text-underline-offset: 2px;
       }
     }
-  
+
     .link-bottom-line {
       margin-top: 0.5rem;
     }
@@ -225,7 +245,7 @@ div.ac-wrap {
 
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
 .latest-topic-list-item.visited a.title:not(.badge-notification),
-.category-topic-link.visited a.title:not(.badge-notification){
+.category-topic-link.visited a.title:not(.badge-notification) {
   color: var(--primary-high);
 }
 
@@ -426,12 +446,15 @@ nav.post-controls .actions {
   button.d-hover,
   .double-button:hover button,
   .double-button button.like.d-hover,
-  .double-button button.button-count+.toggle-like.d-hover {
+  .double-button button.button-count + .toggle-like.d-hover {
     background: transparent;
   }
 }
 
-.select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .top-date-string {
+.select-kit.dropdown-select-box.period-chooser
+  .period-chooser-header
+  h2.selected-name
+  .top-date-string {
   color: var(--primary);
 }
 
@@ -443,7 +466,9 @@ nav.post-controls .actions {
   border-bottom: 1px solid var(--primary-high);
 }
 
-.small-action.topic-post-visited .topic-post-visited-line .topic-post-visited-message {
+.small-action.topic-post-visited
+  .topic-post-visited-line
+  .topic-post-visited-message {
   color: var(--primary-high);
 }
 
@@ -478,7 +503,7 @@ nav.post-controls .actions {
 //*---------------------------*/
 .admin-main-nav,
 .reviewable,
-.user-primary-navigation {  
+.user-primary-navigation {
   .nav-pills {
     border-bottom: 2px solid var(--primary-high);
     margin-bottom: 0;
@@ -496,9 +521,9 @@ nav.post-controls .actions {
 
       &.active {
         background-color: var(--primary-high);
-        
+
         &:hover {
-          color: var(--tertiary-low)
+          color: var(--tertiary-low);
         }
       }
     }
