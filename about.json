@@ -8,7 +8,7 @@
     "ptserif-regular": "assets/PTSerif-Regular.ttf",
     "ptserif-bold": "assets/PTSerif-Bold.ttf"
   },
-  "name": "Inky",
+  "name": "Inky Theme",
   "color_schemes": {
     "Inky Light": {
       "primary": "2b2c34",
