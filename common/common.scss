@@ -27,8 +27,6 @@
 }
 
 html {
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
   text-size-adjust: none;
   font-family: var(--font-serif-2);
   font-size: 112.5%;
@@ -62,7 +60,6 @@ textarea,
 .search-menu .search-input,
 .select-kit.combo-box .select-kit-header,
 #reply-control .mini-tag-chooser .select-kit-header,
-.select-kit.combo-box .select-kit-header,
 .select-kit.multi-select .multi-select-header, // date/time modal
 .d-editor-textarea-wrapper,
 div.ac-wrap {
@@ -74,9 +71,7 @@ div.ac-wrap {
   }
 }
 
-//*---------------------------*/
-//* Navigation Container
-//*---------------------------*/
+// Navigation Container
 .navigation-container {
   margin-bottom: 1rem;
   align-items: flex-start;
@@ -87,7 +82,6 @@ div.ac-wrap {
     "breadcrumb buttons"
     "navigation navigation";
 
-  // breadcrumb
   .category-breadcrumb {
     grid-area: breadcrumb;
     grid-row: 1;
@@ -162,9 +156,7 @@ div.ac-wrap {
   }
 }
 
-//*---------------------------*/
-//* Topic List Container
-//*---------------------------*/
+// Topic List Container
 .topic-list {
   border-collapse: separate;
 
@@ -249,9 +241,7 @@ div.ac-wrap {
   color: var(--primary-high);
 }
 
-//*---------------------------*/
-//* Category List Container
-//*---------------------------*/
+// Category List Container
 .category-list {
   border-collapse: separate;
   border-spacing: 0 15px;
@@ -274,9 +264,7 @@ div.ac-wrap {
   }
 }
 
-//*---------------------------*/
-//* Topic Page
-//*---------------------------*/
+// Topic Page
 .topic-body {
   padding-left: 5px;
 
@@ -354,9 +342,7 @@ div.ac-wrap {
   }
 }
 
-//*---------------------------*/
-//* Category Boxes
-//*---------------------------*/
+// Category Boxes
 .category-boxes .category-box,
 .category-boxes-with-topics .category-box {
   border-left-width: 0;
@@ -373,9 +359,7 @@ div.ac-wrap {
   border-top-right-radius: 0.5rem;
 }
 
-//*---------------------------*/
-//* Poll
-//*---------------------------*/
+// Poll
 .poll-ui-builder .poll-type .poll-type-value {
   border-radius: 0.25rem;
 
@@ -388,9 +372,7 @@ div.ac-wrap {
   align-items: flex-start;
 }
 
-//*---------------------------*/
-//* Misc
-//*---------------------------*/
+// Misc
 .d-header {
   border-bottom: 1px solid var(--primary-low);
 }
@@ -498,9 +480,7 @@ nav.post-controls .actions {
   font-size: var(--font-0);
 }
 
-//*---------------------------*/
-//* Admin Section
-//*---------------------------*/
+// Admin Section
 .admin-main-nav,
 .reviewable,
 .user-primary-navigation {
