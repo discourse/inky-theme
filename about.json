@@ -35,5 +35,5 @@
       "love": "ff4245"
     }
   },
-  "components": ["https://github.com/discourse/discourse-search-banner.git"]
+  "screenshots": ["screenshots/dark.png", "screenshots/light.png"]
 }
