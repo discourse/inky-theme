@@ -26,7 +26,7 @@ Go to **Admin > Welcome banner** (`/admin/config/welcome-banner`) page.
 
 - **Location** should be set to `Below site header`
 
-  ![welcome banner location setting](images/welcome-banner-location-setting.png)
+  ![welcome banner location setting](images/welcome-banner-location-setting.webp)
 
 ---
 
