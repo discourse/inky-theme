@@ -16,6 +16,14 @@ The theme is designed to make reading easy. Light and dark modes are available.
 
 Change the following settings for this theme to render properly.
 
+### Edit Theme
+
+Go to **Admin > Themes & components** (`/admin/config/customize/themes`) page to edit Inky theme.
+
+- in **Dark color palette** dropdown select `Inky Dark`
+
+  ![theme dark color palette](/images/theme-dark-color-palette.webp)
+
 ### Welcome Banner
 
 Go to **Admin > Welcome banner** (`/admin/config/welcome-banner`) page.
