@@ -6,11 +6,11 @@ The theme is designed to make reading easy. Light and dark modes are available.
 
 ### Light Mode
 
-![light mode](screenshots/light.png)
+![light mode](screenshots/light.webp)
 
 ### Dark Mode
 
-![dark mode](screenshots/dark.png)
+![dark mode](screenshots/dark.webp)
 
 ## Theme Configuration
 
@@ -35,10 +35,6 @@ Go to **Admin > Welcome banner** (`/admin/config/welcome-banner`) page.
 - **Location** should be set to `Below site header`
 
   ![welcome banner location setting](images/welcome-banner-location-setting.webp)
-
----
-
-Feel free to let me know how this theme could be improved. I hope you enjoy!
 
 |              |                              |                                                                                                                             |
 | ------------ | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
