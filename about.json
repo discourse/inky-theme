@@ -1,14 +1,14 @@
 {
+  "name": "Inky Theme",
+  "authors": "Discourse",
   "about_url": "https://meta.discourse.org/t/inky-a-theme-to-make-reading-easy/218741",
   "license_url": "https://github.com/discourse/inky-theme/blob/main/LICENSE",
-  "author": "Ella",
   "assets": {
     "librebaskerville-regular": "assets/LibreBaskerville-Regular.ttf",
     "librebaskerville-bold": "assets/LibreBaskerville-Bold.ttf",
     "ptserif-regular": "assets/PTSerif-Regular.ttf",
     "ptserif-bold": "assets/PTSerif-Bold.ttf"
   },
-  "name": "Inky Theme",
   "color_schemes": {
     "Inky Light": {
       "primary": "2b2c34",
