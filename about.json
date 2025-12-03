@@ -35,5 +35,5 @@
       "love": "ff4245"
     }
   },
-  "screenshots": ["screenshots/dark.webp", "screenshots/light.webp"]
+  "screenshots": ["screenshots/light.webp", "screenshots/dark.webp"]
 }
